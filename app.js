@@ -6,6 +6,7 @@ const routes = require("./routes");
 const app = express();
 
 app.use(bodyParser.json());
-app.use("/api", cors(), routes);
+app.use(cors());
+app.use("/api", routes);
 
 module.exports = app;
