@@ -19,6 +19,7 @@
     "smart-id-rest": "^1.2.4"
   },
   "devDependencies": {
+    "@vercel/node": "^2.10.2",
     "nodemon": "^2.0.22"
   }
 }
